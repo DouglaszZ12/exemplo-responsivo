@@ -1,0 +1,210 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	outline: 0; }
+a { 
+	color: #067aa7; 
+	text-decoration: none; 
+	cursor: pointer; 
+}
+a:hover{ 
+	text-decoration: underline; 
+}
+a img { 
+	border: 0; 
+}
+
+article, aside, details, footer, header, menu, nav, section { 
+	display: block; 
+}
+
+/* Desing Starts Here */
+body {
+	font-size: 12px;
+	line-height: 22px;
+	font-family: arial, sans-serif;
+	color: #828282;
+	background-color:#F1F1F1;
+	max-width: 980px;
+	margin: 0 auto;
+}
+.wrapper{ 
+	min-height: 100%; 
+	height: auto !important; 
+	height: 100%; 
+	margin: 0 auto;
+}
+
+.header{
+	float: left;
+	width: 100%;
+	height: 120px;
+	border: 5px solid #FFFFFF;
+	border-radius: 10px;
+	margin: 5px 0 0 0;
+	background-color: #e9f7fd;
+}
+.menu{
+	float: left;
+	width: 100%;
+	height: 40px;
+	border: 5px solid #007aad;	
+	border-radius: 10px;
+	margin: 5px 0 0 0;
+	background-color:#009bdb;
+}
+.content{
+	float: left;
+	width: 100%;
+	border: 5px solid #FFFFFF;	
+	border-radius: 10px;
+	margin: 5px 0 0 0;
+	background-color:#FFFFFF;	
+}
+
+.left-side{
+	float: left;
+	width: 220px; 
+	margin: 5px;
+	border-radius: 10px;
+	background-color:#009bdb;
+	min-height: 600px; 
+	height: auto !important; 
+	height: 600px; 	
+}
+.container{
+	float: left;
+	width: 740px; 
+	min-height: 600px; 
+	height: auto !important; 
+	height: 600px; 
+	margin: 5px;
+	border-radius: 10px;
+	background-color:#F5F5F5;	
+}
+.footer{
+	float: left;
+	width: 100%;
+	height: 60px;
+	border: 5px solid #FFFFFF;
+	border-radius: 10px;
+	margin: 5px 0 10px 0;
+	background-color: #bdc8cd;
+}
+
+/* Lets make the Design Responsive */
+
+@media (min-width: 960px) and (max-width: 1023px) {   /* CSS for browsers less than 1024px*/
+	body { 	
+		max-width: 920px; 
+	}
+	.left-side{ 
+		width: 200px; 
+	}
+	.container{ 
+		width: 700px; 
+	}
+}
+
+@media (min-width: 768px) and (max-width: 959px) { /* CSS for browsers less than 960px*/
+	body { 	
+		max-width: 720px; 
+	}
+	.left-side{ 
+		width: 200px; 
+	}
+	.container{ 
+		width: 500px; 
+	}  
+}
+
+@media (min-width: 600px) and (max-width: 767px) {   /* CSS for browsers less than 768px*/
+	body { 	
+		max-width: 580px; 
+	}
+	.left-side{ 
+		width: 200px; 
+	}
+	.container{ 
+		width: 360px; 
+	}
+}
+
+@media (min-width: 480px) and (max-width: 599px) {   /* CSS for browsers less than 600px*/
+	body { 
+		max-width: 460px; 
+	}
+	.header{ 
+		width: 450px; 
+		border: 3px solid #FFFFFF; 
+		border-radius: 5px; 
+	}
+	.menu{ 
+		width: 450px; 
+		border: 3px solid #007aad;	
+		border-radius: 5px; 
+	}
+	.content{ 
+		width: 450px;	
+		border: 3px solid #FFFFFF;	
+		border-radius: 5px; 
+	}
+	.left-side{ 
+		width: 445px; 	
+		margin: 5px 2px 5px 2px;
+	}
+	.container{ 
+		width: 445px; 	
+		margin: 5px 2px 5px 2px; 
+	}   
+  	.footer{  
+		  width: 450px;
+		border: 3px solid #FFFFFF; 
+		border-radius: 5px; 
+	}
+}
+
+@media (min-width: 320px) and (max-width: 479px) {   /* CSS for browsers less than 480px*/
+	body { 	
+		max-width: 310px; 
+	}
+	.header{ 
+		width: 300px; 
+		border: 3px solid #FFFFFF; 
+		border-radius: 5px; 
+	}
+	.menu{ 
+		width: 300px; 
+		border: 3px solid #007aad;	
+		border-radius: 5px; 
+	}
+	.content{ 
+		width: 300px;	
+		border: 3px solid #FFFFFF;	
+		border-radius: 5px; 
+	}
+	.left-side{ 
+		width: 294px; 	
+		margin: 5px 2px 5px 2px;}
+	.container{ 
+		width: 294px; 	
+		margin: 5px 2px 5px 2px; }   
+  	.footer{  
+		  width: 300px;
+		  border: 3px solid #FFFFFF; 
+		  border-radius: 5px; 
+		}
+}
+
+@media (max-width: 319px) {  /* CSS For 320px or less browsers */
+	body { 	
+		max-width: 100%; 
+	}
+	.left-side{ 
+		width: 96%; 
+	}
+	.container{ 
+		width: 96%; 
+	}
+}
+/* */
